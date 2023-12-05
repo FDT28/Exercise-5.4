@@ -3,7 +3,8 @@ public class App{
         System.out.println("Miles       Kilometers");
         System.out.println("----------------------");
         for (int miles=1;miles<=10;miles++) {
-            System.out.println("miles");
+            double kilometers = miles*1.609;
+            System.out.print(miles + "mi." + "       " + kilometers + "km.");
         }
     }
 }
